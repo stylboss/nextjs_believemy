@@ -1,0 +1,18 @@
+.CarteDeProjet {
+  color: white;
+  border: 1px solid #9f7aea;
+  border-radius: 5px;
+  padding: 15px;
+  transition: all 0.3s;
+  font-weight: normal;
+}
+
+.CarteDeProjet:hover {
+  background: #9f7aea;
+}
+
+.CarteDeProjet p {
+  text-transform: lowercase;
+  font-size: small;
+  margin: 10px 0 0 0;
+}

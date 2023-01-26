@@ -1,0 +1,83 @@
+html,
+body {
+  background-color: rgb(55, 51, 51);
+}
+
+.container {
+  padding: 0 15px 0 15px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(55, 51, 51);
+  color: #4299e1;
+  text-transform: uppercase;
+}
+
+header {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+main {
+  font-weight: bold;
+}
+
+footer {
+  border-top: 1px solid white;
+  text-align: end;
+  margin: 10px 50px 0 50px;
+  text-transform: lowercase;
+}
+
+main > button {
+  color: white;
+  background-color: #4299e1;
+  border-radius: 7px;
+  padding: 3px;
+  margin-right: 15px;
+  width: 65px;
+}
+
+main > button:hover {
+  background-color: #63b3ed;
+}
+
+small {
+  text-transform: lowercase;
+}
+
+form > p {
+  margin: 10px;
+}
+
+form > p > input {
+  color: rgb(55, 51, 51);
+  padding: 5px;
+  border-radius: 10px;
+  display: block;
+}
+
+form > p > textarea {
+  color: rgb(55, 51, 51);
+  padding: 5px;
+  border-radius: 10px;
+  display: block;
+}
+
+form > div > button {
+  color: white;
+  background-color: #4299e1;
+  border-radius: 7px;
+  padding: 3px;
+  width: 65px;
+}
+
+form > button {
+  color: white;
+  background-color: #4299e1;
+  border-radius: 7px;
+  padding: 3px;
+  width: 100px;
+  margin-left: 87px;
+}
